@@ -1,0 +1,1 @@
+**[1]** Yoneda, Kota, Shoichiro Amari, Masashi Mikami, Keiichi Uchida, Akiko Yokoi, Manabu Okawada, Taizo Furukawa, et al. 2023. “Development of Mortality Prediction Models for Infants with Isolated, Left-Sided Congenital Diaphragmatic Hernia before and after Birth.” Pediatric Pulmonology 58 (1): 152–60.
