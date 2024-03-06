@@ -32,6 +32,7 @@ shinyUI(
         module_01,
         module_02,
         module_03,
+        module_04,
 
     )
 )

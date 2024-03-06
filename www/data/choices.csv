@@ -1,0 +1,356 @@
+item,description,value
+facility_class,総合周産期母子医療センター,1
+facility_class,地域周産期母子医療センター,2
+facility_class,その他,3
+facility_provider,国立,1
+facility_provider,独立行政法人,2
+facility_provider,公立,3
+facility_provider,私立,4
+facility_provider,その他,5
+facility_psychologist,はい,1
+facility_psychologist,いいえ,2
+facility_surgery,はい,1
+facility_surgery,いいえ,2
+facility_cardiosurgery,はい,1
+facility_cardiosurgery,いいえ,2
+facility_neurosurgery,はい,1
+facility_neurosurgery,いいえ,2
+facility_ophthalmology,はい,1
+facility_ophthalmology,いいえ,2
+facility_followUp,はい,1
+facility_followUp,いいえ,2
+maternal_comorbidity,あり,1
+maternal_comorbidity,なし,2
+maternal_comorbidity,不明,3
+maternal_ART,はい,1
+maternal_ART,いいえ,2
+maternal_ART,不明,3
+maternal_foreigner,はい,1
+maternal_foreigner,いいえ,2
+maternal_foreigner,不明,3
+pregnancy_plurarity,一絨毛膜,1
+pregnancy_plurarity,二絨毛膜以上,2
+pregnancy_plurarity,不明,3
+pregnancy_DM,はい,1
+pregnancy_DM,いいえ,2
+pregnancy_DM,不明,3
+pregnancy_chronicHypertension,はい,1
+pregnancy_chronicHypertension,いいえ,2
+pregnancy_chronicHypertension,不明,3
+pregnancy_hypertension,はい,1
+pregnancy_hypertension,いいえ,2
+pregnancy_hypertension,不明,3
+pregnancy_CAM_clinical,はい,1
+pregnancy_CAM_clinical,いいえ,2
+pregnancy_CAM_clinical,不明,3
+pregnancy_CAM_pathological,はい,1
+pregnancy_CAM_pathological,いいえ,2
+pregnancy_CAM_pathological,不明,3
+pregnancy_CAM_pathological_grade,I 度,1
+pregnancy_CAM_pathological_grade,II 度,2
+pregnancy_CAM_pathological_grade,III 度,3
+laborDelivery_hydrops,はい,1
+laborDelivery_hydrops,いいえ,2
+laborDelivery_hydrops,不明,3
+laborDelivery_PROM,はい,1
+laborDelivery_PROM,いいえ,2
+laborDelivery_PROM,不明,3
+laborDelivery_PROM_duration,24時間未満,1
+laborDelivery_PROM_duration,24時間以上1週間未満,2
+laborDelivery_PROM_duration,1週間以上,3
+laborDelivery_abraptioPlacentae,はい,1
+laborDelivery_abraptioPlacentae,いいえ,2
+laborDelivery_abraptioPlacentae,不明,3
+laborDelivery_cordProlapse,はい,1
+laborDelivery_cordProlapse,いいえ,2
+laborDelivery_cordProlapse,不明,3
+laborDelivery_steroid,はい,1
+laborDelivery_steroid,いいえ,2
+laborDelivery_steroid,不明,3
+laborDelivery_steroid_course,1クール完了,1
+laborDelivery_steroid_course,1クール未完了,2
+laborDelivery_Mg,はい,1
+laborDelivery_Mg,いいえ,2
+laborDelivery_Mg,不明,3
+laborDelivery_NRFS,はい,1
+laborDelivery_NRFS,いいえ,2
+laborDelivery_NRFS,不明,3
+laborDelivery_presentation,頭位,1
+laborDelivery_presentation,その他,2
+laborDelivery_presentation,不明,3
+laborDelivery_mode,自然経腟分娩,1
+laborDelivery_mode,器械分娩（吸引・鉗子）,2
+laborDelivery_mode,帝王切開,3
+laborDelivery_fetoMaternalTransufusion,はい,1
+laborDelivery_fetoMaternalTransufusion,いいえ,2
+laborDelivery_fetoMaternalTransufusion,不明,3
+laborDelivery_cordBloodTransfusion,はい,1
+laborDelivery_cordBloodTransfusion,いいえ,2
+laborDelivery_cordBloodTransfusion,不明,3
+laborDelivery_cordBloodTransfusion_method,臍帯結紮前の臍帯ミルキング,1
+laborDelivery_cordBloodTransfusion_method,臍帯結紮後の臍帯ミルキン,2
+laborDelivery_cordBloodTransfusion_method,臍帯結紮遅延(30～60秒),3
+laborDelivery_cordBloodTransfusion_method,臍帯結紮遅延(60秒以上),4
+neonatal_sex,男,1
+neonatal_sex,女,2
+neonatal_sex,不明,3
+neonatal_outborn,はい,1
+neonatal_outborn,いいえ,2
+neonatal_inborn,外来紹介,1
+neonatal_inborn,緊急母体搬送,2
+neonatal_inborn,いいえ,3
+neonatal_GA_confirm,はい,1
+neonatal_GA_confirm,いいえ,2
+neonatal_GA_confirm,不明,3
+neonatal_resuscitation_withhold,はい,1
+neonatal_resuscitation_withhold,いいえ,2
+neonatal_resuscitation_withhold,不明,3
+neonatal_resuscitation_oxygen,はい,1
+neonatal_resuscitation_oxygen,いいえ,2
+neonatal_resuscitation_oxygen,不明,3
+neonatal_resuscitation_intubation,はい,1
+neonatal_resuscitation_intubation,いいえ,2
+neonatal_resuscitation_intubation,不明,3
+neonatal_resuscitation_CPAP,はい,1
+neonatal_resuscitation_CPAP,いいえ,2
+neonatal_resuscitation_CPAP,不明,3
+neonatal_resuscitation_chestCompression,はい,1
+neonatal_resuscitation_chestCompression,いいえ,2
+neonatal_resuscitation_chestCompression,不明,3
+neonatal_resuscitation_adrenalin,はい,1
+neonatal_resuscitation_adrenalin,いいえ,2
+neonatal_resuscitation_adrenalin,不明,3
+neonatal_livebirth,はい,1
+neonatal_livebirth,いいえ,2
+neonatal_cordBloodGas_sample,はい,1
+neonatal_cordBloodGas_sample,いいえ,2
+neonatal_cordBloodGas_sample,不明,3
+neonatal_neonatalBloodGas_sample,はい,1
+neonatal_neonatalBloodGas_sample,いいえ,2
+neonatal_neonatalBloodGas_sample,不明,3
+neonatal_neonatalBloodGas_sampleSite,動脈,1
+neonatal_neonatalBloodGas_sampleSite,静脈,2
+neonatal_neonatalBloodGas_sampleSite,不明,3
+pulmonary_RDS,はい,1
+pulmonary_RDS,いいえ,2
+pulmonary_airleak,はい,1
+pulmonary_airleak,いいえ,2
+pulmonary_airleak_thoracentesis,はい,1
+pulmonary_airleak_thoracentesis,いいえ,2
+pulmonary_hemorrhage,はい,1
+pulmonary_hemorrhage,いいえ,2
+pulmonary_PPHN,はい,1
+pulmonary_PPHN,いいえ,2
+pulmonary_HFO,はい,1
+pulmonary_HFO,いいえ,2
+pulmonary_HFO_timing,生後72時間未満,1
+pulmonary_HFO_timing,生後72時間以降,2
+pulmonary_NAVA,はい,1
+pulmonary_NAVA,いいえ,2
+pulmonary_NAVA_method,気管挿管下,1
+pulmonary_NAVA_method,非気管挿管下,2
+pulmonary_NO_purpose,急性期,1
+pulmonary_NO_purpose,慢性期（肺高血圧あり）,2
+pulmonary_NO_purpose,慢性期（肺高血圧なし）,3
+pulmonary_CLD,はい,1
+pulmonary_CLD,いいえ,2
+pulmonary_CLD_type,I,1
+pulmonary_CLD_type,II,2
+pulmonary_CLD_type,III,3
+pulmonary_CLD_type,III',4
+pulmonary_CLD_type,IV,5
+pulmonary_CLD_type,V,6
+pulmonary_CLD_type,VI,7
+pulmonary_CLD_CXR,びまん性泡沫上陰影,1
+pulmonary_CLD_CXR,不規則索状気腫状陰影,2
+pulmonary_CLD_CXR,びまん性不透亮像,3
+pulmonary_CLD_steroid,はい,1
+pulmonary_CLD_steroid,いいえ,2
+pulmonary_CLD_ICS,はい,1
+pulmonary_CLD_ICS,いいえ,2
+pulmonary_CLD_36wk,はい,1
+pulmonary_CLD_36wk,いいえ,2
+pulmonary_CLD_36wk_support,非侵襲的呼吸管理,1
+pulmonary_CLD_36wk_support,侵襲的呼吸管理,2
+pulmonary_CLD_40wk_support,はい,1
+pulmonary_CLD_40wk_support,いいえ,2
+pulmonary_CLD_40wk_support_method,酸素投与のみ,1
+pulmonary_CLD_40wk_support_method,非侵襲的呼吸管理,2
+pulmonary_CLD_40wk_support_method,侵襲的呼吸管理,3
+cardiac_PDA,はい,1
+cardiac_PDA,いいえ,2
+cardiac_PDA_indomethacin,はい,1
+cardiac_PDA_indomethacin,いいえ,2
+cardiac_PDA_indomethacin,予防投与のみ,3
+cardiac_PDA_drug,インダシン（予防投与）,1
+cardiac_PDA_drug,インダシン（治療）,2
+cardiac_PDA_drug,イブプロフェン,3
+cardiac_PDA_drug,その他,4
+cardiac_PDA_surgery,はい,1
+cardiac_PDA_surgery,いいえ,2
+cardiac_lcc,はい,1
+cardiac_lcc,いいえ,2
+neurologic_seizure,はい,1
+neurologic_seizure,いいえ,2
+neurologic_seizure_diagnosis,臨床的けいれん,1
+neurologic_seizure_diagnosis,電気的けいれん,2
+neurologic_IVH,はい,1
+neurologic_IVH,いいえ,2
+neurologic_IVH_grade,I 度,1
+neurologic_IVH_grade,II 度,2
+neurologic_IVH_grade,III 度,3
+neurologic_IVH_grade,IV 度,4
+neurologic_IVH_grade_right,I 度,1
+neurologic_IVH_grade_right,II 度,2
+neurologic_IVH_grade_right,III 度,3
+neurologic_IVH_grade_right,IV 度,4
+neurologic_IVH_grade_left,I 度,1
+neurologic_IVH_grade_left,II 度,2
+neurologic_IVH_grade_left,III 度,3
+neurologic_IVH_grade_left,IV 度,4
+neurologic_IVH_hydrocephalus,はい,1
+neurologic_IVH_hydrocephalus,いいえ,2
+neurologic_IVH_hydrocephalus_shunt,はい,1
+neurologic_IVH_hydrocephalus_shunt,いいえ,2
+neurologic_cPVL,はい,1
+neurologic_cPVL,いいえ,2
+neurologic_whiteMatterLesion,はい,1
+neurologic_whiteMatterLesion,いいえ,2
+neurologic_whiteMatterLesion,MRI なし,3
+neurologic_HIE,はい,1
+neurologic_HIE,いいえ,2
+infectious_intrauterine,はい,1
+infectious_intrauterine,いいえ,2
+infectious_sepsis,はい,1
+infectious_sepsis,いいえ,2
+infectious_sepsis_pathogen_1st,E.Coli,1
+infectious_sepsis_pathogen_1st,CNS (coagulase negative staphylococci),2
+infectious_sepsis_pathogen_1st,GBS,3
+infectious_sepsis_pathogen_1st,Streptococcus spp（GBS以外）,4
+infectious_sepsis_pathogen_1st,MSSA,5
+infectious_sepsis_pathogen_1st,MRSA,6
+infectious_sepsis_pathogen_1st,Klebsiella spp,7
+infectious_sepsis_pathogen_1st,Enterococcus spp,8
+infectious_sepsis_pathogen_1st,Enterobacter spp,9
+infectious_sepsis_pathogen_1st,Pseudomonas Aerigonosa,10
+infectious_sepsis_pathogen_1st,Candida sp.,11
+infectious_sepsis_pathogen_1st,Fungus,12
+infectious_sepsis_pathogen_1st,その他,13
+infectious_sepsis_pathogen_1st,不明,14
+infectious_sepsis_pathogen_2nd,E.Coli,1
+infectious_sepsis_pathogen_2nd,CNS (coagulase negative staphylococci),2
+infectious_sepsis_pathogen_2nd,GBS,3
+infectious_sepsis_pathogen_2nd,Streptococcus spp（GBS以外）,4
+infectious_sepsis_pathogen_2nd,MSSA,5
+infectious_sepsis_pathogen_2nd,MRSA,6
+infectious_sepsis_pathogen_2nd,Klebsiella spp,7
+infectious_sepsis_pathogen_2nd,Enterococcus spp,8
+infectious_sepsis_pathogen_2nd,Enterobacter spp,9
+infectious_sepsis_pathogen_2nd,Pseudomonas Aerigonosa,10
+infectious_sepsis_pathogen_2nd,Candida sp.,11
+infectious_sepsis_pathogen_2nd,Fungus,12
+infectious_sepsis_pathogen_2nd,その他,13
+infectious_sepsis_pathogen_2nd,不明,14
+infectious_meningitis,はい,1
+infectious_meningitis,いいえ,2
+infectious_meningitis_pathogen_1st,E.Coli,1
+infectious_meningitis_pathogen_1st,CNS (coagulase negative staphylococci),2
+infectious_meningitis_pathogen_1st,GBS,3
+infectious_meningitis_pathogen_1st,Streptococcus spp（GBS以外）,4
+infectious_meningitis_pathogen_1st,MSSA,5
+infectious_meningitis_pathogen_1st,MRSA,6
+infectious_meningitis_pathogen_1st,Klebsiella spp,7
+infectious_meningitis_pathogen_1st,Enterococcus spp,8
+infectious_meningitis_pathogen_1st,Enterobacter spp,9
+infectious_meningitis_pathogen_1st,Pseudomonas Aerigonosa,10
+infectious_meningitis_pathogen_1st,Candida sp.,11
+infectious_meningitis_pathogen_1st,Fungus,12
+infectious_meningitis_pathogen_1st,その他,13
+infectious_meningitis_pathogen_1st,不明,14
+infectious_meningitis_pathogen_1st,髄液検査未施行,15
+infectious_meningitis_pathogen_2nd,E.Coli,1
+infectious_meningitis_pathogen_2nd,CNS (coagulase negative staphylococci),2
+infectious_meningitis_pathogen_2nd,GBS,3
+infectious_meningitis_pathogen_2nd,Streptococcus spp（GBS以外）,4
+infectious_meningitis_pathogen_2nd,MSSA,5
+infectious_meningitis_pathogen_2nd,MRSA,6
+infectious_meningitis_pathogen_2nd,Klebsiella spp,7
+infectious_meningitis_pathogen_2nd,Enterococcus spp,8
+infectious_meningitis_pathogen_2nd,Enterobacter spp,9
+infectious_meningitis_pathogen_2nd,Pseudomonas Aerigonosa,10
+infectious_meningitis_pathogen_2nd,Candida sp.,11
+infectious_meningitis_pathogen_2nd,Fungus,12
+infectious_meningitis_pathogen_2nd,その他,13
+infectious_meningitis_pathogen_2nd,不明,14
+infectious_meningitis_pathogen_2nd,髄液検査未施行,15
+infectious_antibiotics,はい,1
+infectious_antibiotics,いいえ,2
+gastrointestinal_hyperalimentation,はい,1
+gastrointestinal_hyperalimentation,いいえ,2
+gastrointestinal_NEC,はい,1
+gastrointestinal_NEC,いいえ,2
+gastrointestinal_perforation,はい,1
+gastrointestinal_perforation,いいえ,2
+gastrointestinal_meconuim,はい,1
+gastrointestinal_meconuim,いいえ,2
+gastrointestinal_meconuim_treatment,非開腹ドレナージ,1
+gastrointestinal_meconuim_treatment,開腹術（人工肛門なし）,2
+gastrointestinal_meconuim_treatment,開腹術（人工肛門あり）,3
+gastrointestinal_meconuim_treatment,処置無し,4
+hearing_screening_result,正常,1
+hearing_screening_result,異常,2
+hearing_screening_result,未実施,3
+rop_stage,II 期以下,1
+rop_stage,III 初期,2
+rop_stage,III 中期,3
+rop_stage,III 後期・IV 期・V 期・II 型,4
+rop_stage,未実施,5
+rop_stage,Stage 1,6
+rop_stage,Stage 2,7
+rop_stage,Stage 3,8
+rop_stage,Stage 4・Stage 5・APROP,9
+rop_treatment,はい,1
+rop_treatment,いいえ,2
+rop_treatment_antiVEGF,はい,1
+rop_treatment_antiVEGF,いいえ,2
+diagnosis_malformation,はい,1
+diagnosis_malformation,いいえ,2
+diagnosis_malformation_surgery,はい,1
+diagnosis_malformation_surgery,いいえ,2
+summary_anemia_RBCtransfusion,はい,1
+summary_anemia_RBCtransfusion,いいえ,2
+summary_feeding_breastMilk,100%,1
+summary_feeding_breastMilk,50〜99%,2
+summary_feeding_breastMilk,1〜49%,3
+summary_feeding_breastMilk,0%,4
+summary_feeding_breastmilk_donorMilk,はい,1
+summary_feeding_breastmilk_donorMilk,いいえ,2
+summary_feeding_breastmilk_donorMilkBank,母乳バンクを利用,1
+summary_feeding_breastmilk_donorMilkBank,院内のみ,2
+summary_anemia_EPO,はい,1
+summary_anemia_EPO,いいえ,2
+summary_anemia_EPO_purpose,貧血予防,1
+summary_anemia_EPO_purpose,中枢神経予防,2
+summary_anemia_EPO_purpose,その他,3
+discharge_transfer,はい,1
+discharge_transfer,いいえ,2
+discharge_death,はい,1
+discharge_death,いいえ,2
+discharge_autopsy,はい,1
+discharge_autopsy,いいえ,2
+discharge_home,自宅,1
+discharge_home,その他,2
+discharge_to,出生病院,1
+discharge_to,他院 NICU,2
+discharge_to,自院小児科,3
+discharge_to,他院小児科,4
+discharge_to,障害児施設,5
+discharge_to,乳児院,6
+discharge_HOT,はい,1
+discharge_HOT,いいえ,2
+discharge_tracheostomy,はい,1
+discharge_tracheostomy,いいえ,2
+disabled_motor,はい,1
+disabled_motor,いいえ,2
+disabled_vision,はい,1
+disabled_vision,いいえ,2

@@ -285,16 +285,37 @@ get_record_facility <- function(input) {
 }
 
 ###############################################################################
+
+
+
+###############################################################################
 ###############################################################################
 
+source("www/modules/module_facility.R")
 source("www/modules/module_A.R")
 source("www/modules/module_B.R")
 source("www/modules/module_C.R")
+source("www/modules/module_D.R")
+source("www/modules/module_E.R")
+source("www/modules/module_F.R")
+source("www/modules/module_G.R")
+source("www/modules/module_H.R")
+source("www/modules/module_I.R")
+source("www/modules/module_J.R")
+source("www/modules/module_K.R")
+source("www/modules/module_L.R")
+source("www/modules/module_M.R")
+source("www/modules/module_N.R")
+source("www/modules/module_O.R")
 source("www/modules/module_01_01.R")
 source("www/modules/module_01_02.R")
+source("www/modules/module_01_03.R")
+source("www/modules/module_01_04.R")
+source("www/modules/module_01_05.R")
 source("www/modules/module_01.R")
 source("www/modules/module_02.R")
 source("www/modules/module_03.R")
+source("www/modules/module_04.R")
 
 ###############################################################################
 ###############################################################################

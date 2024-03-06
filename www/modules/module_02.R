@@ -2,63 +2,54 @@ print("Loading module_02...")
 
 module_02 <- 
     tabPanel(
-        title = "Database",
-        titlePanel("Database for NRNJ Database"),
-        tabsetPanel(
-            type = "tabs",
+        title = "Facility",
+        titlePanel("施設データ登録"),
+        sidebarLayout(
+            sidebarPanel(
+                width = 3,
+                
+                fluidRow(
+                    column(
+                        width = 6,
+                        actionButton(
+                            inputId = "load_record_neonates",
+                            label = "Load",
+                            width = "100%",
+                        ),
+                    ),
+                    column(
+                        width = 6,
+                        actionButton(
+                            inputId = "save_record_neonates",
+                            label = "Save",
+                            width = "100%",
+                            class = "btn btn-primary"
+                        ),
+                    ),
+                ),
+                
+                hr(),
+                
+                textInput(
+                    inputId = "facility_id",
+                    label = "施設 ID",
+                    value = NA,
+                ),
+                numericInput(
+                    inputId = "birth_year",
+                    label = "対象年",
+                    value = NA,
+                ),
+                textAreaInput(
+                    inputId = "notes",
+                    label = "Notes",
+                    rows = 5,
+                ),
+            ),
             
-            tabPanel(
-                title = "neonates",
-                h3("'neonates' table"),
-                fluidPage(
-                    sidebarLayout(
-                        sidebarPanel(
-                            width = 3,
-                            actionButton(
-                                inputId = "table_downloader_neonates",
-                                label = "Download CSV",
-                                width = "100%"
-                            ),
-                            hr(),
-                            fileInput(
-                                inputId = "table_uploader_neonates",
-                                label = "Upload a CSV file",
-                                buttonLabel = "Choose File",
-                            ),
-                        ),
-                        mainPanel(
-                            width = 9,
-                            dataTableOutput("table_neonates"),
-                        ),
-                    )
-                )
-            ),  # tabPanel
-            
-            tabPanel(
-                title = "facility",
-                h3("'facility' table"),
-                fluidPage(
-                    sidebarLayout(
-                        sidebarPanel(
-                            width = 3,
-                            actionButton(
-                                inputId = "table_downloader_facility",
-                                label = "Download CSV",
-                                width = "100%"
-                            ),
-                            hr(),
-                            fileInput(
-                                inputId = "table_uploader_facility",
-                                label = "Upload a CSV file",
-                                buttonLabel = "Choose File",
-                            ),
-                        ),
-                        mainPanel(
-                            width = 9,
-                            dataTableOutput("table_facility"),
-                        ),
-                    )
-                )
-            )
-        )
+            mainPanel(
+                module_facility,
+            ),
+        ),
     )
+
