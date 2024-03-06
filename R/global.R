@@ -1,6 +1,11 @@
 ###############################################################################
+###############################################################################
+
+library(tidyverse)
+library(magrittr)
 
 print("Loading global.R...")
+
 
 ###############################################################################
 
@@ -280,120 +285,16 @@ get_record_facility <- function(input) {
 }
 
 ###############################################################################
-
-############################## END ##############################
-
 ###############################################################################
 
-# get_df_neonates <- function(con, table) {
-#     DBI::dbGetQuery(con, "SELECT * FROM neonates") |> 
-#         dplyr::arrange(patient_id)
-# }
-# 
-# get_df_facility <- function(con) {
-#     dbGetQuery(con, "SELECT * FROM facility") |> 
-#         dplyr::arrange(birth_year)
-# }
-
-# get_record_neonates <- function(con, .patient_id) {
-#     con |> 
-#         get_df_neonates() |> 
-#         dplyr::filter(patient_id == .patient_id)
-# }
-# 
-# get_record_facility <- function(con, .birth_year) {
-#     con |> 
-#         get_df_facility() |> 
-#         dplyr::filter(birth_year == .birth_year)
-# }
-
-# render_df <- function(df) {
-#     
-#     DT::renderDataTable(
-#         df,
-#         extensions = c("Buttons", "FixedColumns"),
-#         filter = "top",
-#         options = list(
-#             dom = "Bfrtip",  # Blfrtip
-#             buttons = "csv",
-#             scrollX = TRUE,
-#             scrollCollapse = TRUE
-#         )
-#     )
-# }
+source("www/modules/module_A.R")
+source("www/modules/module_B.R")
+source("www/modules/module_C.R")
+source("www/modules/module_01_01.R")
+source("www/modules/module_01_02.R")
+source("www/modules/module_01.R")
+source("www/modules/module_02.R")
+source("www/modules/module_03.R")
 
 ###############################################################################
-
-
-# path_to_saved_data = "www/data/csv/saved_data.csv"
-# 
-# load_saved_data <- function(path_to_saved_data) {
-#     
-#     if (!file.exists(path_to_saved_data)) {
-#         return()
-#     }
-#     
-#     loaded_data <- 
-#         path_to_saved_data |> 
-#         readr::read_csv(
-#             col_types = cols(
-#                 .default = col_character(),
-#                 num_neontatal_beds = col_double(),
-#                 num_beds_nicu = col_double(),
-#                 matarnal_age = col_double(), 
-#                 maternal_dm = col_logical(),
-#             )
-#         )
-#     
-#     return(loaded_data)
-#     
-# }
-# 
-# loaded_data <- 
-#     path_to_saved_data |> 
-#     load_saved_data()
-
 ###############################################################################
-
-
-
-# record_neonates = data.frame(
-#     patient_id = input$patient_id,
-#     birth_year = input$birth_year_neonates,
-#     notes = input$notes,
-#     maternal_age = input$maternal_age,
-#     gravidity = input$gravidity,
-#     parity = input$parity,
-#     num_fetuses = input$num_fetuses,
-#     birth_order = input$birth_order,
-#     chorionicity = input$chorionicity,
-#     maternal_dm = input$maternal_dm,
-#     hdp = input$hdp,
-#     prom = input$prom,
-#     antenatal_steroid_administration = input$antenatal_steroid_administration,
-#     nrfs = input$nrfs,
-#     cephalic_presentation = input$cephalic_presentation,
-#     delivery_mode = input$delivery_mode,
-#     cord_blood_transfusion = input$cord_blood_transfusion,
-#     male_sex = input$male_sex,
-#     outborn = input$outborn,
-#     apgar_score_1min = input$apgar_score_1min,
-#     apgar_score_5min = input$apgar_score_5min,
-#     resuscitation_oxygen = input$resuscitation_oxygen,
-#     resuscitation_intubation = input$resuscitation_intubation,
-#     birth_weight = input$birth_weight,
-#     birth_height = input$birth_height,
-#     birth_head = input$birth_head,
-#     rds = input$rds,
-#     pphn = input$pphn,
-#     hie = input$hie,
-#     gestational_age_week = input$gestational_age_week,
-#     gestational_age_day = input$gestational_age_day
-# )
-
-###############################################################################
-# 
-
-    
-###############################################################################
-
